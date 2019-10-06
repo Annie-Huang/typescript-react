@@ -10,3 +10,4 @@ C:\react\typescript-react>npm run build
 C:\react\typescript-react>npm run build2
 C:\react\typescript-react>npm link              << C:\Users\Annie\AppData\Roaming\npm\node_modules\typescript-react -> C:\react\typescript-react
 C:\react\typescript-react>npm link fancy        << C:\react\typescript-react\node_modules\fancy -> C:\Users\Annie\AppData\Roaming\npm\node_modules\fancy
+C:\react\typescript-react>npm install jest @types/jest ts-jest enzyme @types/enzyme enzyme-adapter-react-16 -D
