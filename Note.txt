@@ -13,3 +13,9 @@ C:\react\typescript-react>npm link              << C:\Users\Annie\AppData\Roamin
 C:\react\typescript-react>npm link fancy        << C:\react\typescript-react\node_modules\fancy -> C:\Users\Annie\AppData\Roaming\npm\node_modules\fancy
 C:\react\typescript-react>npm install jest @types/jest ts-jest enzyme @types/enzyme enzyme-adapter-react-16 -D
 C:\react\typescript-react>npx jest              << run jest testing.
+
+C:\react\typescript-react>mkdir e2e
+C:\react\typescript-react>cd e2e
+C:\react\typescript-react\e2e>npm init -y
+C:\react\typescript-react\e2e>npm install cypress webpack @cypress/webpack-preprocessor typescript ts-loader
+C:\react\typescript-react\e2e>npx cypress open
