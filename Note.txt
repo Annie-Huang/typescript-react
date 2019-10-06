@@ -1,4 +1,5 @@
 https://egghead.io/courses/use-typescript-to-develop-react-applications
+https://github.com/eggheadio-projects/use-typescript-to-develop-react-applications/tree/master/lessons
 
 ====================
 
