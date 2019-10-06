@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {Fancy} from '../lib';
+import {CheckboxWithLabel} from './checkboxWithLabel';
 
 // Stateless:
 // // const App = ({ message }) => <div>{message}</div>;
@@ -73,7 +74,14 @@ import {Fancy} from '../lib';
 //     document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <Fancy text={"Hello world"} />,
+//     document.getElementById('root')
+// );
+
+////////////////////////////////////////////////////////////////
+
 ReactDOM.render(
-    <Fancy text={"Hello world"} />,
+    <CheckboxWithLabel labelOn="on" labelOff="off"/>,
     document.getElementById('root')
 );
