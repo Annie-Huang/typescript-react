@@ -5,3 +5,5 @@ https://egghead.io/courses/use-typescript-to-develop-react-applications
 C:\react\typescript-react>npm init
 C:\react\typescript-react>npm install react react-dom webpack webpack-dev-server typescript @types/react @types/react-dom ts-loader
 C:\react\typescript-react>npm install webpack-cli
+C:\react\typescript-react>npm run start
+C:\react\typescript-react>npm run build
