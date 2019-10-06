@@ -1,0 +1,29 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/typescript-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/typescript-react/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/typescript-react#readme",
+  "dependencies": {
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
