@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {Fancy} from '../lib';
 import {CheckboxWithLabel} from './checkboxWithLabel';
+import { id, onText, offText } from './constants';
 
 // Stateless:
 // // const App = ({ message }) => <div>{message}</div>;
@@ -82,6 +83,6 @@ import {CheckboxWithLabel} from './checkboxWithLabel';
 ////////////////////////////////////////////////////////////////
 
 ReactDOM.render(
-    <CheckboxWithLabel labelOn="on" labelOff="off"/>,
+    <CheckboxWithLabel id={id} labelOn={onText} labelOff={offText}/>,
     document.getElementById('root')
 );

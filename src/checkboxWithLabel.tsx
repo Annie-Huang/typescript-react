@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 export class CheckboxWithLabel extends React.Component<{
+    id: string,
     labelOn: string,
     labelOff: string
 }, {
@@ -17,7 +18,7 @@ export class CheckboxWithLabel extends React.Component<{
 
     render() {
         return (
-            <label>
+            <label id={this.props.id}>
                 <input
                     type="checkbox"
                     checked={this.state.isChecked}
