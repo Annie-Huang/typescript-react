@@ -21,3 +21,4 @@ C:\react\typescript-react\e2e>npm install cypress webpack @cypress/webpack-prepr
 C:\react\typescript-react\e2e>npx cypress open
 
 C:\react\typescript-react\e2e>npm run cypress:open
+C:\react\typescript-react\e2e>npm run cypress:run
