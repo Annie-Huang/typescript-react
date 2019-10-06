@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import {Fancy} from '../lib';
 
 // Stateless:
 // // const App = ({ message }) => <div>{message}</div>;
@@ -41,26 +42,38 @@ import * as ReactDOM from 'react-dom';
 //     }
 // }
 
-type AppProps = {message: string};
-type AppState = {count: number}
-class App extends React.Component<AppProps, AppState> {
-    constructor(props) {
-        super(props);
-        this.state = {
-            count: 0
-        }
-    }
-    render() {
-        return <div onClick={this.increment}>{this.props.message} {this.state.count}</div>;
-    }
-    increment = () => {
-        this.setState({
-            count: this.state.count + 1
-        })
-    }
-}
+// type AppProps = {message: string};
+// type AppState = {count: number}
+// class App extends React.Component<AppProps, AppState> {
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             count: 0
+//         }
+//     }
+//     render() {
+//         return <div onClick={this.increment}>{this.props.message} {this.state.count}</div>;
+//     }
+//     increment = () => {
+//         this.setState({
+//             count: this.state.count + 1
+//         })
+//     }
+// }
+
+// ReactDOM.render(
+//     <App message="Hello again" />,
+//     document.getElementById('root')
+// );
+
+///////////////////////////////////////////////////////////////
+
+// ReactDOM.render(
+//     <div>Hello world</div>,
+//     document.getElementById('root')
+// );
 
 ReactDOM.render(
-    <App message="Hello again" />,
+    <Fancy text={"Hello world"} />,
     document.getElementById('root')
 );
